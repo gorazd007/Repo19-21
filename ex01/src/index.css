@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+textarea {
+    background-color: rgb(235, 235, 243);
+    width: 580px;
+    height: 260px;
+
+}
+
+table {
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+tr {
+    
+    margin: 0px 0px;
+    cursor: pointer;
+    
+}
+td {
+    border-color: black;
+    color: rgb(161, 156, 156);
+    background-color: black;
+    width: 45px;
+    font-size: 23px;
+    
+}
+
+td:hover {
+    opacity: 0.8;
+    
+}
